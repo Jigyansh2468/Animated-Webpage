@@ -1,4 +1,4 @@
-// Locomotive ScrollTrigger Codepen 
+// Locomotive ScrollTrigger from Codepen 
 function locomotiveAnimation() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -74,8 +74,8 @@ function videoconAnimation() {
     });
     document.addEventListener("mousemove", function (dets) {
         gsap.to(playbtn, {
-            left: dets.x - 70,
-            top: dets.y - 80,
+            left: dets.x-80,
+            top: dets.y-80,
         });
     });
 }
